@@ -18,6 +18,10 @@ personsAge = false; // fail
 // Tuples (multiple types in given order)
 let adress: [string, number] = ['Fake Street', 123];
 
+// You can use tuples with rest operators too (both these functions are equal):
+const printInfo => (name: string, age: number) => console.log(`My name is ${name} and I am ${age} years old!`);
+const printInfo => (...info: [string, number]) => console.log(`My name is ${info[0]} and I am ${info[1]} years old!`);
+
 // Enum
 // Basically a convenience method, can be used as a hashmap
 enum Color {
