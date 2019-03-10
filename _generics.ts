@@ -1,3 +1,6 @@
+// Generics allow you to define multiple types when defining a class, function etc to be used as a constraint
+// and then to decide which of the allowed ones to use (mix and match) at the time of instantiation...
+
 // It is a convention to define generic types with `<T>` the T is for "type":
 // If allowing multiple types then the convention is to use `<U>`
 
